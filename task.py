@@ -28,3 +28,6 @@ class Task:
 
     def get_priority(self):
         return self.__priority
+
+    def get_name(self):
+        return self.__name

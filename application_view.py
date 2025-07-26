@@ -31,6 +31,18 @@ class ApplicationView:
     def show_error(self, message: str):
         print(f"Error: {message}")
 
+    def show_tasks(self, tasks: list[Task]):
+        if not tasks:
+            print("No tasks to display.")
+            return
+
+        print("\n--- Tasks ---")
+        for task in tasks:
+            print(f"- Name: {task.get_name()}")
+            print(f"  Description: {task.get_massage()}")
+            print(f"  Priority: {task.get_priority()}")
+            print("---")
+
     def read_task_name_to_change(self) -> str:
         return input("Enter the name of the task you want to change: ")
 
