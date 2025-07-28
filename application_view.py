@@ -18,7 +18,8 @@ class ApplicationView:
         return input("Enter task description: ")
 
     def read_task_priority(self) -> TaskPriority:
-        while True:
+        in_process = True
+        while in_process:
             priority_str = input("Enter task priority (high, medium, low): ").lower()
             try:
                 return TaskPriority(priority_str)
@@ -50,9 +51,13 @@ class ApplicationView:
         return input("Enter the new task description: ")
 
     def read_new_task_priority(self) -> TaskPriority:
-        while True:
+        in_process = True
+        while in_process:
             priority_str = input("Enter the new task priority (high, medium, low): ").lower()
             try:
                 return TaskPriority(priority_str)
             except ValueError:
                 print("Invalid priority. Please enter 'high', 'medium', or 'low'.")
+
+    def read_task_name_to_remove(self) -> str:
+        return input("Enter the name of the task you want to remove: ")

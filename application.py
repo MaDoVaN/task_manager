@@ -49,3 +49,16 @@ class Application:
     def get_tasks(self):
         tasks = self.__database.get_tasks()
         self.__application_view.show_tasks(tasks)
+
+    def sort_tasks_by_name(self):
+        tasks = self.__database.get_tasks()
+        tasks.sort(key=lambda task: task.get_name())
+        self.__application_view.show_tasks(tasks)
+
+    def sort_tasks_by_priority(self):
+        tasks = self.__database.get_tasks()
+        tasks.sort(key=lambda task: task.get_priority())
+        self.__application_view.show_tasks(tasks)
+
+    def remove_task(self):
+        pass

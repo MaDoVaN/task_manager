@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6dbda8b-70b3-4e59-8114-26117abd2b70" name="Changes" comment="добавленны стартовые файлы для проекта">
+    <list default="true" id="c6dbda8b-70b3-4e59-8114-26117abd2b70" name="Changes" comment="добавил main и database, есть возможность запустить проект">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/application_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753186646613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавил main и database, есть возможность запустить проект">
+      <option name="closed" value="true" />
+      <created>1753517581680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753517581680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,17 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавленны стартовые файлы для проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавленны стартовые файлы для проекта" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="добавил main и database, есть возможность запустить проект" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил main и database, есть возможность запустить проект" />
   </component>
 </project>
