@@ -6,17 +6,16 @@ class Database:
         self.__tasks: List[Task] = []
 
     def add(self, task: Task):
+
         if not isinstance(task, Task):
             raise TypeError("task must be an instance of Task")
-
         self.__tasks.append(task)
 
     def remove(self, task: Task):
-
-        if task in self.__tasks:
+        try:
             self.__tasks.remove(task)
-        else:
-            print(f"Warning: Task '{task}' not found in database.")
+        except ValueError:
+            raise ValueError(f"Task '{task}' not found in database.")
 
     def get_tasks(self) -> List[Task]:
         return self.__tasks
@@ -26,6 +25,7 @@ class Database:
 
     def get_task_by_name(self, name: str) -> Optional[Task]:
         for task in self.__tasks:
+
             if task.get_name() == name:
                 return task
         return None

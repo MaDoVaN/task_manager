@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6dbda8b-70b3-4e59-8114-26117abd2b70" name="Changes" comment="сделана возможность сортировки по названию задачи, по приоретету пока не работает, также начата работа над удалением задач и исправлнены мелкие помарки в коде для лучшей читаемости">
+    <list default="true" id="c6dbda8b-70b3-4e59-8114-26117abd2b70" name="Changes" comment="добавленна проверка на пустой список">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -107,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753715689865</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавленна проверка на пустой список">
+      <option name="closed" value="true" />
+      <created>1756198200633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756198200633</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +134,7 @@
     <MESSAGE value="добавленны стартовые файлы для проекта" />
     <MESSAGE value="добавил main и database, есть возможность запустить проект" />
     <MESSAGE value="сделана возможность сортировки по названию задачи, по приоретету пока не работает, также начата работа над удалением задач и исправлнены мелкие помарки в коде для лучшей читаемости" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделана возможность сортировки по названию задачи, по приоретету пока не работает, также начата работа над удалением задач и исправлнены мелкие помарки в коде для лучшей читаемости" />
+    <MESSAGE value="добавленна проверка на пустой список" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавленна проверка на пустой список" />
   </component>
 </project>

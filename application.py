@@ -61,4 +61,18 @@ class Application:
         self.__application_view.show_tasks(tasks)
 
     def remove_task(self):
-        pass
+        try:
+            task_name_to_remove = self.__application_view.read_task_name_to_remove()
+            task_to_remove = self.__database.get_task_by_name(task_name_to_remove)
+
+            if task_to_remove is None:
+                self.__application_view.show_error(f"Task with name '{task_name_to_remove}' not found.")
+                return
+
+            self.__database.remove(task_to_remove)
+            self.__application_view.show_message(f"Task '{task_name_to_remove}' removed successfully!")
+
+        except ValueError as e:
+            self.__application_view.show_error(str(e))
+        except Exception as e:
+            self.__application_view.show_error(f"An unexpected error occurred during task removal: {e}")
