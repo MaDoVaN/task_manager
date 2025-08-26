@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6dbda8b-70b3-4e59-8114-26117abd2b70" name="Changes" comment="добавленна проверка на пустой список">
+    <list default="true" id="c6dbda8b-70b3-4e59-8114-26117abd2b70" name="Changes" comment="добавлена функция удаления. в application реализован метод remove_task и изменен  метод remove в database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756198200633</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="добавлена функция удаления. в application реализован метод remove_task и изменен  метод remove в database">
+      <option name="closed" value="true" />
+      <created>1756203831519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756203831519</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +141,7 @@
     <MESSAGE value="добавил main и database, есть возможность запустить проект" />
     <MESSAGE value="сделана возможность сортировки по названию задачи, по приоретету пока не работает, также начата работа над удалением задач и исправлнены мелкие помарки в коде для лучшей читаемости" />
     <MESSAGE value="добавленна проверка на пустой список" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавленна проверка на пустой список" />
+    <MESSAGE value="добавлена функция удаления. в application реализован метод remove_task и изменен  метод remove в database" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлена функция удаления. в application реализован метод remove_task и изменен  метод remove в database" />
   </component>
 </project>

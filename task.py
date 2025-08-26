@@ -6,6 +6,27 @@ class TaskPriority(Enum):
     MEDIUM = "medium"
     LOW = "low"
 
+    @staticmethod
+    def _get_priority_order():
+        return {
+            TaskPriority.HIGH: 1,
+            TaskPriority.MEDIUM: 2,
+            TaskPriority.LOW: 3
+        }
+
+    def __str__(self):
+        return self.value
+
+    def __lt__(self, other):
+        if isinstance(other, TaskPriority):
+            order_map = TaskPriority._get_priority_order()
+            return order_map[self] < order_map[other]
+        return NotImplemented
+
+    def __eq__(self, other):
+        if isinstance(other, TaskPriority):
+            return self.value == other.value
+        return NotImplemented
 
 class Task:
     def __init__(self, name: str, input_massage: str, priority: TaskPriority):
