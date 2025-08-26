@@ -21,6 +21,9 @@ class Database:
     def get_tasks(self) -> List[Task]:
         return self.__tasks
 
+    def is_task_list_empty(self) -> bool:
+        return len(self.__tasks) == 0
+
     def get_task_by_name(self, name: str) -> Optional[Task]:
         for task in self.__tasks:
             if task.get_name() == name:

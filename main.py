@@ -16,7 +16,7 @@ while app_is_running:
     if choice == "1":
         app.create_task()
     elif choice == "2":
-        app.change_task()
+        pass
     elif choice == "3":
         app.change_task()
     elif choice == "4":
